@@ -4,7 +4,6 @@
 #include <stdbool.h>
 #include "hdr.h"
 
-
 #define MAXOPEN 20 //numarul de cozi de masej deschise
 #define MAXMSG 4 //numarul maxim de mesaje
 #define KEY 1995
