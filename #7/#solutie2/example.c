@@ -7,7 +7,6 @@
 //gcc prob7.c example.so
 //./a.out
 //
-//
 // gcc -o myprogram prob7-project2.c -ldl -rdynamic
 // gcc -fPIC -shared -o example.so prob7-project2.c
 int  *allocInLib()
