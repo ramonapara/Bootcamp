@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #include <unistd.h>
 #define THREADURI 10
-
 pthread_mutex_t counterlock;
 void *increment(void *index)
 {
