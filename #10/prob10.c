@@ -6,7 +6,6 @@
 
 #define THREADURI 10
 pthread_mutex_t mutex;
-
 int semnal=0;
 
 void signal_handler(int sig)
