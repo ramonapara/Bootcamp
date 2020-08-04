@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #include <unistd.h>
 #define THREADURI 10
-//8. [Threads , callbacks variable passing] Implement using pthreads an application that starts 10 worker threads , passes an incremented index as value to each thread callback , lists the parameter from each thread , and waits for them
 
 void *increment(void *index)
 {
