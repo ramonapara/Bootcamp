@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 void progressCallback( int index, int dataSize)
 {
 	int rez=dataSize-index;
