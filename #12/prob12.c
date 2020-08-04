@@ -21,7 +21,6 @@ int isEmpty(struct Nod *cap)
                 return 1;
         }
 }
-
 void insert(struct Nod **cap,char *v)
 {
         struct Nod *temp;
